@@ -13,10 +13,18 @@
   --white: #ffffff;
 }
 
-/* General styles */
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
 
 html {
-  font-size: 67.5%;
+  font-size: 62.5%;
 }
 
 body {
@@ -24,3 +32,18 @@ body {
 }
 
 /*  */
+
+.top-fixed {
+  height: 6.4rem;
+
+  padding: 1.8rem;
+
+  background-color: #f3f7ff;
+}
+
+.top-fixed p {
+  font-size: 2.4rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.08;
+}
