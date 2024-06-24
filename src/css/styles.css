@@ -39,19 +39,21 @@ body {
 
 /* Banner layout */
 
-.free-shipping-banner {
+.banner {
   height: 6.4rem;
-  padding: 1.8rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   background-color: var(--gray);
 }
 
 /* Banner content styles */
 
-.free-shipping-text {
+.banner-text {
   font-size: 2.4rem;
   font-weight: 500;
-  text-align: center;
   line-height: 1.1;
 }
 
@@ -69,11 +71,6 @@ body {
   background-image: url("/image/image-michael-jordan.png");
   background-size: cover;
   background-position: 50% 10.8%;
-}
-
-.hero {
-  max-width: 55.7rem;
-  height: 21.1rem;
 }
 
 /* Hero content styles */
@@ -95,7 +92,7 @@ body {
 .hero-title {
   font-size: 3.2rem;
   font-weight: 500;
-  line-height: 34.82px;
+  line-height: 1.75;
 
   margin-bottom: 2rem;
 }
@@ -103,7 +100,7 @@ body {
 .hero-description {
   font-size: 2rem;
   font-weight: 300;
-  line-height: 32.6px;
+  line-height: 1.65;
 }
 
 /*********************/
@@ -127,7 +124,6 @@ body {
 
 .intro-text {
   width: 59.3rem;
-  height: 12.7rem;
 
   text-align: center;
 
@@ -137,14 +133,14 @@ body {
 .intro-title {
   font-size: 3.2rem;
   font-weight: 600;
-  line-height: 34.82px;
+  line-height: 1.75;
 
   margin-bottom: 2.4rem;
 }
 
 .intro-description {
   font-size: 2.4rem;
-  line-height: 33.6px;
+  line-height: 1.7;
 }
 
 /* Main grid items */
@@ -159,13 +155,7 @@ body {
   row-gap: 4rem;
 }
 
-.product-card {
-  width: 38.4rem;
-  height: 32.6rem;
-}
-
 .card-image-container {
-  width: 38.4rem;
   height: 20rem;
 
   display: flex;
@@ -177,9 +167,8 @@ body {
   background-color: #f3f7ff;
 }
 
-.card-image {
-  width: 22.5rem;
-  height: 13.5rem;
+.card-details {
+  margin-bottom: 2.4rem;
 }
 
 .card-name,
@@ -190,21 +179,19 @@ body {
 
 .card-name {
   font-size: 1.8rem;
-  line-height: 23.4px;
+  line-height: 1.18;
 
   margin-bottom: 1.2rem;
 }
 
 .card-category {
   font-size: 1.6rem;
-  line-height: 17.41px;
-
-  margin-bottom: 2.4rem;
+  line-height: 0.885;
 
   color: var(--brand-color);
 }
 
 .card-price {
   font-size: 2rem;
-  line-height: 24.52px;
+  line-height: 1.245;
 }
